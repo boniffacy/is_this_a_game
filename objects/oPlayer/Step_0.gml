@@ -16,7 +16,7 @@ if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2)
 	controller = 1;
 }
 
-if (gamepad_button_check_pressed(0, gp_face1))
+if (gamepad_axis_value(0, gp_axislv) < -0.25)
 {
 	key_jump = 1;
 	controller = 1;
@@ -33,6 +33,13 @@ vsp = vsp + grv;
 if (place_meeting(x, y+1, oWall)) && (key_jump)
 {
 	vsp = -7;
+}
+
+if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2)
+{
+	key_left = abs(min(gamepad_axis_value(0, gp_axislh), 0));
+	key_right = max(gamepad_axis_value(0, gp_axislh), 0);
+	controller = 1;
 }
 
 // Horizontal Collsion
