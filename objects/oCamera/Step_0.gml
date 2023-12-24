@@ -8,8 +8,8 @@ if (instance_exists(follow))
 }
 
 //Update object position
-x += max((xTo - x) * 0.1, 0.005);
-y += max((yTo - y) * 0.1, 0.005);
+x += (xTo - x) * 0.1;
+y += (yTo - y) * 0.1;
 
 x = clamp(x, view_w_half, room_width - view_w_half);
 y = clamp(y, view_h_half, room_height - view_h_half);
