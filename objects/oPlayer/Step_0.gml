@@ -32,7 +32,7 @@ vsp = vsp + grv;
 
 if (place_meeting(x, y+1, oWall)) && (key_jump)
 {
-	vsp = -7;
+	vsp = -jump;
 }
 
 if (abs(gamepad_axis_value(0, gp_axislh)) > 0.2)
