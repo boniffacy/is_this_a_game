@@ -1,5 +1,7 @@
 /// @description Progess the transition
 
+percenttarget = 1.2; // max size of black slider - over 1 makes delay between lide down and up
+
 if (mode != TRANS_MODE.OFF)
 {
 	if (mode == TRANS_MODE.INTRO)
@@ -8,10 +10,10 @@ if (mode != TRANS_MODE.OFF)
 	}
 	else
 	{
-		percent = min(1, percent + max(((1 - percent) * 0.1), 0.005));
+		percent = min(percenttarget, percent + max(((percenttarget - percent) * 0.1), 0.005));
 	}
 	
-	if (percent == 1) || (percent == 0)
+	if (percent == percenttarget) || (percent == 0)
 	{
 		switch (mode)
 		{

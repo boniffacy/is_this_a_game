@@ -1,3 +1,5 @@
+#region
+
 vsp = vsp + grv;
 
 // Horizontal Collsion
@@ -22,7 +24,13 @@ if (place_meeting(x, y+vsp, oWall))
 }
 y = y + vsp;
 
+#endregion
+
+
+
 // Animation
+#region
+
 if (!place_meeting(x, y+1, oWall))
 {
 	sprite_index = sEnemyA;
@@ -44,3 +52,5 @@ else
 }
 
 if (hsp != 0) { image_xscale = sign(hsp); }
+
+#endregion
