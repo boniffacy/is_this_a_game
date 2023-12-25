@@ -24,7 +24,8 @@ if (mode != TRANS_MODE.OFF)
 			}
 			case TRANS_MODE.NEXT:
 			{
-				mode = TRANS_MODE.INTRO;	 
+				mode = TRANS_MODE.INTRO;
+				if room_exists(room_next(room)) { room_goto_next(); }		
 				break;
 			}
 			case TRANS_MODE.GOTO:
