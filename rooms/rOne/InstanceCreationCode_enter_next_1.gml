@@ -1,0 +1,1 @@
+entertype = ENTER_TYPE.NEXT;

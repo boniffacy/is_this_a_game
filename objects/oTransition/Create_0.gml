@@ -14,6 +14,7 @@ enum TRANS_MODE
 
 mode = TRANS_MODE.INTRO;
 percent = 1;
+percenttarget = 1.2; // max size of black slider - over 1 makes delay between lide down and up
 target = room;
-
+gotoprev = false;
 

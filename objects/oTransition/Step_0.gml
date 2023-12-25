@@ -1,11 +1,15 @@
 /// @description Progess the transition
 
-percenttarget = 1.2; // max size of black slider - over 1 makes delay between lide down and up
-
 if (mode != TRANS_MODE.OFF)
 {
 	if (mode == TRANS_MODE.INTRO)
 	{
+		if(gotoprev)
+		{
+			oPlayer.x = instance_find(oEnterLevel, 0).x -128;
+			oPlayer.y = instance_find(oEnterLevel, 0).y;
+			gotoprev = false;
+		}
 		percent = max(0, percent - max((percent * 0.1), 0.005));	
 	}
 	else
@@ -31,6 +35,10 @@ if (mode != TRANS_MODE.OFF)
 			case TRANS_MODE.GOTO:
 			{
 				mode = TRANS_MODE.INTRO;
+				if(room_get_name(target) == room_get_name(room_previous(room)))
+				{
+					gotoprev = true;
+				}
 				room_goto(target);
 				break;
 			}
