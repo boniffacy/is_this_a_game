@@ -6,4 +6,7 @@ view_h_half = camera_get_view_height(cam) * 0.5;
 xTo = xstart;
 yTo = ystart;
 
-
+shake_length = 0 * 1; // equals to framerate * number of seconds shake takes
+shake_magnitude = 0;
+shake_remain = 0;
+buff = 64; // buffer for camera window(accounts for screen shake)

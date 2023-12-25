@@ -35,5 +35,6 @@
     {"name":"sTiles","order":11,"path":"sprites/sTiles/sTiles.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"sBullet","order":5,"path":"sprites/sBullet/sBullet.yy",},
+    {"name":"ScreenShake","order":1,"path":"scripts/ScreenShake/ScreenShake.yy",},
   ],
 }
