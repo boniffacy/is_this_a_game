@@ -10,3 +10,6 @@ shake_length = 0 * 1; // equals to framerate * number of seconds shake takes
 shake_magnitude = 0;
 shake_remain = 0;
 buff = 64; // buffer for camera window(accounts for screen shake)
+
+mountainlayer = layer_get_id("Mountains");
+treeslayer = layer_get_id("Trees");
