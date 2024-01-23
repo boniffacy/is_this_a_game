@@ -88,7 +88,7 @@ y = y + vsp;
 
 // Animation
 #region
-
+/*
 if (!place_meeting(x, y+1, oWall))
 {
 	sprite_index = sPlayerA;
@@ -110,5 +110,5 @@ else
 }
 
 if (hsp != 0) { image_xscale = sign(hsp); }
-
+*/
 #endregion

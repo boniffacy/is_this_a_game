@@ -23,12 +23,18 @@ shake_remain = max(0, shake_remain - ((1 / shake_length) * shake_magnitude));
 //Update camera view
 camera_set_view_pos(cam, x - view_w_half, y - view_h_half);
 
-if (layer_exists(mountainlayer))
+if (layer_exists(cloudslayer))
 {
-	layer_x(mountainlayer, x * 0.9);
+	layer_x(cloudslayer, x * 0.9);
+}
+
+if (layer_exists(landlayer))
+{
+	layer_x(landlayer, x * 0.6);
 }
 
 if (layer_exists(treeslayer))
 {
-	layer_x(treeslayer, x * 0.6);
+	layer_x(treeslayer, x * 0.1);
 }
+

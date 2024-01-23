@@ -4,5 +4,4 @@ grv = 0.3; // gravity
 walksp = 7; // walk speed
 jump = 12;
 hascontrol = true;
-
 controller = 0; // use(1) or not(0) the controller
