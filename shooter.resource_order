@@ -22,6 +22,7 @@
     {"name":"sTrigger","order":12,"path":"sprites/sTrigger/sTrigger.yy",},
     {"name":"oWall","order":1,"path":"objects/oWall/oWall.yy",},
     {"name":"oDead","order":5,"path":"objects/oDead/oDead.yy",},
+    {"name":"oEnemyBig","order":10,"path":"objects/oEnemyBig/oEnemyBig.yy",},
     {"name":"oBullet","order":3,"path":"objects/oBullet/oBullet.yy",},
     {"name":"oCamera","order":6,"path":"objects/oCamera/oCamera.yy",},
     {"name":"sTrees","order":14,"path":"sprites/sTrees/sTrees.yy",},
