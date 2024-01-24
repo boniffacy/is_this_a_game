@@ -1,2 +1,2 @@
 # is_this_a_game
-we will see
+gra 2d z rozwiązaniem zadania 5 z gier 2d
