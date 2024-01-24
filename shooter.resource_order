@@ -37,9 +37,13 @@
     {"name":"sEnemyR","order":6,"path":"sprites/sEnemyR/sEnemyR.yy",},
     {"name":"oEnemy","order":4,"path":"objects/oEnemy/oEnemy.yy",},
     {"name":"sEnemyA","order":7,"path":"sprites/sEnemyA/sEnemyA.yy",},
+    {"name":"oMenu","order":9,"path":"objects/oMenu/oMenu.yy",},
     {"name":"sTiles","order":11,"path":"sprites/sTiles/sTiles.yy",},
     {"name":"sWall","order":1,"path":"sprites/sWall/sWall.yy",},
     {"name":"sBullet","order":5,"path":"sprites/sBullet/sBullet.yy",},
+    {"name":"Menu","order":2,"path":"rooms/Menu/Menu.yy",},
+    {"name":"sLongGround","order":18,"path":"sprites/sLongGround/sLongGround.yy",},
+    {"name":"rThree","order":3,"path":"rooms/rThree/rThree.yy",},
     {"name":"ScreenShake","order":1,"path":"scripts/ScreenShake/ScreenShake.yy",},
   ],
 }
