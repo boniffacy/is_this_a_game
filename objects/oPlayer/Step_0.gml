@@ -6,6 +6,7 @@ if (hascontrol)
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 	key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 	key_jump = keyboard_check_pressed(vk_space);
+	key_restore = keyboard_check_pressed(vk_shift);
 
 	if (key_left) || (key_right) || (key_jump)
 	{
@@ -119,4 +120,12 @@ if (hsp != 0) { image_xscale = sign(hsp); }
 if (inv > 0)
 {
 	inv--;
+}
+
+if (key_restore && (restore == restore_lim))
+{
+	restore = 0;
+	hp++;
+	with(oHearts) { currentHearts++; }
+	with(oRestore) { currentRestore = 0; }
 }

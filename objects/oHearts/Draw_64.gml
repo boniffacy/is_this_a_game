@@ -1,7 +1,7 @@
 /// @description draw hearts
 
 sprite_w = sprite_get_width(sHpPoints);
-startX = sprite_w;
+startX = sprite_w + sprite_get_width(sRestore);
 startY = sprite_get_height(sHpPoints);
 
 for (var hearts = 0; hearts < maxHearts; hearts++)
