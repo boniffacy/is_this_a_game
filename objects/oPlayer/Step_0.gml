@@ -115,3 +115,8 @@ else
 if (hsp != 0) { image_xscale = sign(hsp); }
 
 #endregion
+
+if (inv > 0)
+{
+	inv--;
+}

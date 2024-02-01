@@ -1,7 +1,7 @@
 if (hp <= 0)
 {
 	
-	with (instance_create_layer(x, y, layer, oDead))
+	with (instance_create_layer(x, y, layer, oEnemyDead))
 	{
 		direction = other.hitfrom;
 		hsp = lengthdir_x(6, direction);

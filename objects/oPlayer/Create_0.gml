@@ -1,3 +1,4 @@
+hp = 3; // healt points
 hsp = 0; // horizontal speed
 vsp = 0; // vertical speed
 grv = 0.3; // gravity
@@ -5,3 +6,5 @@ walksp = 7; // walk speed
 jump = 12;
 hascontrol = true;
 controller = 0; // use(1) or not(0) the controller
+inv = 0; // time player is invisible to damage after taking hit
+flash = 0;
