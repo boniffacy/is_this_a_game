@@ -11,6 +11,7 @@ shake_magnitude = 0;
 shake_remain = 0;
 buff = 64; // buffer for camera window(accounts for screen shake)
 
-landlayer = layer_get_id("Lands");
+stoneslayer = layer_get_id("Stones");
 treeslayer = layer_get_id("Trees");
+skylayer = layer_get_id("Sky");
 cloudslayer = layer_get_id("Clouds");

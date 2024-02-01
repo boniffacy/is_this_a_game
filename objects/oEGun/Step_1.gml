@@ -7,7 +7,7 @@ image_yscale = abs(owner.image_yscale);
 if (instance_exists(oPlayer))
 {
 	if (oPlayer.x < x) { image_yscale = -image_yscale; }
-	if (point_distance(oPlayer.x, oPlayer.y, x, y) < 600 )
+	if (point_distance(oPlayer.x, oPlayer.y, x, y) < 800 )
 	{
 		image_angle = point_direction(x, y, oPlayer.x, oPlayer.y);
 		countdown--;

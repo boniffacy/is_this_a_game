@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Clouds",
-  "bbox_bottom": 1799,
+  "bbox_bottom": 444,
   "bbox_left": 0,
-  "bbox_right": 12799,
-  "bbox_top": 1436,
+  "bbox_right": 6399,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"473dd3f3-62b6-4e9c-88de-42bdadf4a412",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2da34a9a-ed66-4cb3-abbf-3fe2dd1e9e4c",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 2000,
+  "height": 720,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"928ceb07-b84b-4bc5-b2e0-747ad908bbc3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5e495567-9cbd-48a6-9f74-e613541f85d0","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"473dd3f3-62b6-4e9c-88de-42bdadf4a412","path":"sprites/Clouds/Clouds.yy",},},},"Disabled":false,"id":"f697c620-4d5c-4127-b6e1-c925eb5784ef","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2da34a9a-ed66-4cb3-abbf-3fe2dd1e9e4c","path":"sprites/Clouds/Clouds.yy",},},},"Disabled":false,"id":"cc74bc3b-05ee-453f-9e5d-a95d4bbc4702","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 12800,
+  "width": 6400,
 }

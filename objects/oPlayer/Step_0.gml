@@ -122,7 +122,7 @@ if (inv > 0)
 	inv--;
 }
 
-if (key_restore && (restore == restore_lim))
+if (key_restore && (restore == restore_lim) && hp < restore_lim)
 {
 	restore = 0;
 	hp++;

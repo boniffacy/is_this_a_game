@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sEnemyD",
-  "bbox_bottom": 90,
-  "bbox_left": 0,
-  "bbox_right": 179,
-  "bbox_top": 51,
+  "name": "sEnemyBossD",
+  "bbox_bottom": 84,
+  "bbox_left": 2,
+  "bbox_right": 180,
+  "bbox_top": 38,
   "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9e5efc9a-0ca3-44af-a260-215b0b1764f8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8674b2c0-6183-4b29-a727-12d6fbc16c9b",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c5e36d43-959f-4a0c-acb8-7bbb256136bf","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c6790184-89de-484f-96ed-0ee5f220bccf","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sEnemyD",
+    "name": "sEnemyBossD",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9e5efc9a-0ca3-44af-a260-215b0b1764f8","path":"sprites/sEnemyD/sEnemyD.yy",},},},"Disabled":false,"id":"fd322367-f64e-4f51-a0ff-5578500e54fc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"8674b2c0-6183-4b29-a727-12d6fbc16c9b","path":"sprites/sEnemyBossD/sEnemyBossD.yy",},},},"Disabled":false,"id":"970b06a0-c0df-4cde-8cb1-eaf82f40e9ff","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "sTrees",
-  "bbox_bottom": 959,
-  "bbox_left": 0,
-  "bbox_right": 1279,
-  "bbox_top": 76,
+  "bbox_bottom": 719,
+  "bbox_left": 324,
+  "bbox_right": 6344,
+  "bbox_top": 202,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"54221a0f-e913-4b7b-9514-82cf3e21b80b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d4e818f7-6eeb-4144-9114-3a3fe2dd8c84",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1000,
+  "height": 720,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cadf549e-3973-42c5-a2f9-b2168a95e6cc","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f07e3588-9a45-4230-9416-ac4bfc1b231d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"54221a0f-e913-4b7b-9514-82cf3e21b80b","path":"sprites/sTrees/sTrees.yy",},},},"Disabled":false,"id":"ffd52c00-1482-45d4-b8a3-db46f7c7760d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d4e818f7-6eeb-4144-9114-3a3fe2dd8c84","path":"sprites/sTrees/sTrees.yy",},},},"Disabled":false,"id":"3998e173-b25a-4ef4-ba5e-51b34e8f99b0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1280,
+  "width": 6400,
 }
