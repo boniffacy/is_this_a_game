@@ -3,9 +3,12 @@
 enum ENTER_TYPE
 {
 	NEXT,
-	PREV
+	PREV,
+	GOTO
 }
 
 entertype = ENTER_TYPE.NEXT;
+restart = false;
 
 
+ 

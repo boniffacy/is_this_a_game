@@ -35,10 +35,10 @@ if (mode != TRANS_MODE.OFF)
 			case TRANS_MODE.GOTO:
 			{
 				mode = TRANS_MODE.INTRO;
-				if(room_get_name(target) == room_get_name(room_previous(room)))
-				{
-					gotoprev = true;
-				}
+				//if(room_get_name(target) == room_get_name(room_previous(room)))
+				//{
+					//gotoprev = true;
+				//}
 				room_goto(target);
 				break;
 			}

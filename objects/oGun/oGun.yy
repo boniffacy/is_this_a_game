@@ -33,5 +33,5 @@
     "path": "sprites/sGun/sGun.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
