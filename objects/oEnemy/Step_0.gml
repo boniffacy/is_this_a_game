@@ -30,7 +30,7 @@ y = y + vsp;
 
 // Animation
 #region
-
+/*
 if (!place_meeting(x, y+1, oWall))
 {
 	sprite_index = sEnemyA;
@@ -50,7 +50,7 @@ else
 		sprite_index = sEnemyR;
 	}
 }
-
+*/
 if (hsp != 0) { image_xscale = sign(hsp) * size; }
 image_yscale = size;
 

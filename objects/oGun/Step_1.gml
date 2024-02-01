@@ -26,11 +26,25 @@ if ( (mouse_check_button(mb_left) || (gamepad_button_check(0, gp_shoulderrb)) ) 
 	recoil = 8;
 	ScreenShake(2, 10);
 	audio_play_sound(snShot,5,false);
+	with (oPlayer)
+	{
+		image_speed = 1;
+		sprite_index = sPlayerS;
+
+	}
 	with (instance_create_layer(x, y, "Bullets", oBullet))
 	{
 		speed = 25;
 		direction = other.image_angle + random_range(-6, 6);
 		image_angle = direction;
+	}
+}
+if (firingdelay == 0)
+{
+	with (oPlayer)
+	{
+		image_speed = 0;
+		sprite_index = sPlayer;
 	}
 }
 
